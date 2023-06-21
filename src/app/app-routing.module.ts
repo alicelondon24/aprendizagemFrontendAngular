@@ -33,6 +33,7 @@ import { ListagemUsuarioBadgesComponent } from './components/Dashboard/usuario-d
 import { ListaObjetosAprendizagem } from './components/UnidadeCurricular/lista-objetos-aprendizagem/lista-objetos-aprendizagem.component';
 import { ComentarioComponent } from './components/ApoioDuvidas/comentario/comentario.component';
 import { NovaPerguntaComponent } from './components/ApoioDuvidas/novapergunta/novapergunta.component';
+import { UsuarioPerfilComponent } from './components/Dashboard/usuario-dashboard/usuario-perfil/usuario-perfil.component';
 
 const routes: Routes = [
   {
@@ -137,6 +138,9 @@ const routes: Routes = [
   },
   {
     path: 'usuarios/loginusuario', component: LoginUsuarioComponent
+  },
+  {
+    path: 'usuariodashboard/usuarioperfil', component: UsuarioPerfilComponent
   }
 ];
 

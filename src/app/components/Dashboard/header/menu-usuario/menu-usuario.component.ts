@@ -24,7 +24,7 @@ export class MenuUsuarioComponent implements OnInit {
       items: [{
         label: 'Inicio',
         icon: 'pi pi-user',
-        routerLink: '/dashboard/usuariodashboard'
+        routerLink: '/usuariodashboard/usuarioperfil'
       },
       {
         label: 'Ofertas',
